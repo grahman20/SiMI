@@ -43,7 +43,7 @@ public class Main {
         //call SiMI
         double lamda=0.7; 
         SiMI simi=new SiMI();
-        simi.runSiMI(fileAttrInfo, fileDataFileIn, fileOutput,0.7);
+        simi.runSiMI(fileAttrInfo, fileDataFileIn, fileOutput, lamda);
         System.out.println("\nImputation by SiMI is done. The completed data set is written to: \n"+fileOutput);
     }
       
